@@ -1,0 +1,97 @@
+html, body{
+	margin:0;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+	background-color:#e8eaff;
+}
+.left-block{
+	height:100vh;
+	width:100vw;
+	background-color:black;
+	display:inline-block;
+	position: fixed;
+	right:0;
+	box-shadow:-20px 0px 50px 100px rgba(0,0,0,1)
+}
+.right-block{
+	height:100vh;
+	width:100vw;
+	background-color:black;
+	display:inline-block;
+	position: fixed;
+	left:0;
+	box-shadow:-20px 0px 50px 100px rgba(0,0,0,1)
+	
+}
+.leftvanish{
+	transition: 2000ms;
+	right:2100px;
+	z-index: 1000;
+}
+.rightvanish{
+	transition: 2000ms;
+	left:2100px;
+	z-index: 1000;
+}
+.namebox{
+	position: relative;
+	height: 200px;
+	width:auto;
+	margin: auto;
+	top:40vh;
+	text-align: center;
+}
+.centered{
+	position: absolute;
+	bottom:35%;
+	width:auto;
+	left: 0;
+    right: 0;
+	text-align: center;
+	z-index: 50;
+}
+.name{
+	position: relative;
+	font-size:5em;
+	color:black;
+}
+a.link{
+	font-size:5em;
+	color:lightgray;
+	transition: 1s;
+	cursor: pointer;
+	text-decoration: none;
+}
+.link:hover{
+	color:black !important;
+	font-weight: bolder;
+}
+.invisible{
+	opacity: 0 !important;
+}
+.social-media-container{
+	height:10vh;
+	position: relative;
+	transition: 1s;
+}
+.social-media{
+	font-size:3em;
+	margin-left:45px;
+	margin-right:45px;
+}
+a.social-media{
+	cursor:pointer;
+	text-decoration: none;
+	color:black;
+}
+.grow{
+	transition: 10s;
+	font-size:2.5em !important
+}
+.about-title{
+	position: relative;
+	left:5vw;
+	top:5vh;
+	font-size:2em
+
+}
