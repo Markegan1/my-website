@@ -4,35 +4,6 @@ html, body{
 	font-family: 'Open Sans', sans-serif;
 	background-color:#e8eaff;
 }
-.left-block{
-	height:100vh;
-	width:100vw;
-	background-color:black;
-	display:inline-block;
-	position: fixed;
-	right:0;
-	box-shadow:-20px 0px 50px 100px rgba(0,0,0,1)
-}
-.right-block{
-	height:100vh;
-	width:100vw;
-	background-color:black;
-	display:inline-block;
-	position: fixed;
-	left:0;
-	box-shadow:-20px 0px 50px 100px rgba(0,0,0,1)
-	
-}
-.leftvanish{
-	transition: 2000ms;
-	right:2100px;
-	z-index: 1000;
-}
-.rightvanish{
-	transition: 2000ms;
-	left:2100px;
-	z-index: 1000;
-}
 .namebox{
 	position: relative;
 	height: 200px;
